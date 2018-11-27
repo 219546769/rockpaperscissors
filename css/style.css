@@ -5,5 +5,19 @@
 #choices{
   display:flex;
   justify-content:space-between;
+  color:orange;
   
+}
+.instructions {
+  color:red ;
+}
+.header{
+  color:white;
+}
+.result {
+  color:orange;
+}
+.h3{
+  color:orange
+  ;
 }

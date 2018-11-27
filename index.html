@@ -7,8 +7,8 @@
   <link type='text/css' rel='stylesheet' href='css/style.css' />
 </head>
 
-<body>
-   
+<body style="background-color:black;">
+  
     
   <!-- TASK 1: In the div below. 
         1. In a header tag, add a title.
@@ -18,27 +18,38 @@
         5. Add divs to record User Choice and Computer Choice.
         6. Add a div to record the Winner.
      -->
+     
+     
   <div class="row">
-      <h1>Rock Paper Scissors</h1>
+      <h1 class="header">Rock Paper Scissors</h1>
       <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
-
-      <h3>Please Submit Your Choice Below</h3>
+    <div class="instructions"> 
+      <h2> How to play? </h2>
+      <p> It is very simple to play this game.</p>
+      <p>You first pick rock, paper, or scissors, then you plug your amazing choice into the input box and press "shoot!"</p>
+      <p>CAN NOT LEAVE UNTIL YOU WIN!!</p>
+    </div>
+      <h3 class="h3">Please Submit Your Choice Below</h3>
       <div>
         <input id="input">
         <button id="shoot">Shoot!</button>
       </div>
-
+   
       <div id="choices" class="row">
         <div>
-          <h4>User Choice</h4>
+          <h4> Your Choice</h4>
           <p id="userChoice"></p>
         </div>
         <div>
-          <h4>Computer Choice</h4>
+          <h4>Your Enemies Choice</h4>
           <p id="computerChoice"></p>
         </div>
       </div>
-      <div id="result"></div>
+        <div class="result">
+          <h3>Results</h3>
+          <p id="computerChoiceName"></p>
+        </div>
+         
   </div>
 
   <!-- Link JQuery here -->
